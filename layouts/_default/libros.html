@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ range .Site.Data.libros }}
+
+{{ $latest := index .versions (sub (len .versions) 1) }}
+
+<div>
+<a href="/pdf/{{ $latest }}">{{ .title }}</a>
+</div>
+
+{{ end }}
+
+{{ end }}

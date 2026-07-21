@@ -1,0 +1,50 @@
+- title: Ampëllëin
+  versions:
+    - amp_v2.01.pdf
+    - amp_v2.02.pdf
+
+- title: Neuvat
+  versions:
+    - neu_v2.01.pdf
+    - neu_v3.00.pdf
+    - neu_v3.01.pdf
+
+- title: Eitinen
+  versions:
+    - eit_v1.02.pdf
+    - eit_v1.03.pdf
+
+- title: Enemmavat
+  versions:
+    - enem_v1.00.pdf
+    - enem_v1.01.pdf
+    - enem_v1.02.pdf
+    - enem_v1.10.pdf
+    - enem_v1.20.pdf
+
+- title: Vassavat
+  versions:
+    - vass_v1.00.pdf
+    - vass_v2.00.pdf
+    - vass_v2.10.pdf
+    - vass_v2.11.pdf
+
+- title: Rikkiaddan
+  versions:
+    - rikk_v1.00.pdf
+    - rikk_v1.01.pdf
+    - rikk_v1.03.pdf
+    - rikk_v1.10.pdf
+    - rikk_v2.00.pdf
+    - rikk_v2.10.pdf
+    - rikk_v2.20.pdf
+
+- title: Vastaiden
+  versions:
+    - vast_v1.00.pdf
+
+- title: Vausuaan
+  versions:
+    - vau_v1.00.pdf
+    - vau_v1.10.pdf
+    - vau_v1.20.pdf

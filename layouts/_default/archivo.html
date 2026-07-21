@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<div class="archive-list">
+
+{{ range .Site.Data.libros }}
+
+<details class="archive-entry">
+
+<summary>{{ .title }}</summary>
+
+<ul>
+{{ range .versions }}
+<li>
+<a href="/pdf/{{ . }}">{{ replace . ".pdf" "" }}</a>
+</li>
+{{ end }}
+</ul>
+
+</details>
+
+{{ end }}
+
+</div>
+
+{{ end }}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>SINA SINATAAN OULUN VAKSAN on </title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in SINA SINATAAN OULUN VAKSAN on </description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Archivo</title>
+				<link>http://localhost:1313/archivo/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/archivo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Información</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Libros</title>
+				<link>http://localhost:1313/libros/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/libros/</guid>
+				<description>&lt;p&gt;The latest version is available below.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
