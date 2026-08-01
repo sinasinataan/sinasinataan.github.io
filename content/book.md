@@ -1,4 +1,4 @@
 ---
 title: "Libros"
-layout: "libros"
+layout: "book"
 ---
