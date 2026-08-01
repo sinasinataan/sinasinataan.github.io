@@ -47,7 +47,8 @@ a {
 }
 
 ul {
-    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
 }
 
 .archive-list {
@@ -56,11 +57,13 @@ ul {
 }
 
 .archive-entry {
+	list-style: none;
     margin: 0 0 0.3rem 0;
-    padding: 0;
+    padding: 0.5rem;
 }
 
 .archive-entry summary {
+	font-size: 1.4rem;
     margin: 0;
     padding: 0;
     line-height: 1.2;
@@ -77,4 +80,47 @@ ul {
     padding: 0;
     line-height: 1.2;
 	font-size: 1.2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.photo {
+    position: relative;
+	display: block;
+	aspect-ratio: 1/1;
+    overflow: hidden;
+	text-decoration: none;
+}
+
+.photo img {
+    width: 100%;
+	height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    opacity: 1;
 }

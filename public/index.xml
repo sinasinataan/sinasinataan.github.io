@@ -10,12 +10,28 @@
 		
 		
 		
+			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>2026/08/01</title>
+				<link>http://localhost:1313/blog/20260801/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/20260801/</guid>
+				<description>&lt;p&gt;Esta actualización añade dos secciones nuevas: Galería, para incluir diferentes elementos de arte relacionados con los libros; y Blog, para&lt;/p&gt;&#xA;&lt;p&gt;nova version de amp: hipótesis documental&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>Archivo</title>
-				<link>http://localhost:1313/archivo/</link>
+				<link>http://localhost:1313/log/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/archivo/</guid>
+				<guid>http://localhost:1313/log/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Galería</title>
+				<link>http://localhost:1313/img/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/img/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -27,10 +43,10 @@
 			</item>
 			<item>
 				<title>Libros</title>
-				<link>http://localhost:1313/libros/</link>
+				<link>http://localhost:1313/book/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/libros/</guid>
-				<description>&lt;p&gt;The latest version is available below.&lt;/p&gt;</description>
+				<guid>http://localhost:1313/book/</guid>
+				<description></description>
 			</item>
 	</channel>
 </rss>
